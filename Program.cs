@@ -189,26 +189,26 @@ namespace AlexAvoyan_Queue2._4_2025
             //CREATING TWO QUEUES
             Console.WriteLine("Creating first queue:");
             Queue<int> queue1 = CreateQueue();
-            //Console.WriteLine("Creating second queue:");
-            //Queue<int> queue2 = CreateQueue();
+            Console.WriteLine("Creating second queue:");
+            Queue<int> queue2 = CreateQueue();
 
-            //// Check if the queues are identical/2.4/q1.a
-            //Console.WriteLine("_____________________2.4/q1.a____________________________");
-            //Console.WriteLine("are The queues identical: " + IsIdentical(queue1, queue2));
+            // Check if the queues are identical/2.4/q1.a
+            Console.WriteLine("_____________________2.4/q1.a____________________________");
+            Console.WriteLine("are The queues identical: " + IsIdentical(queue1, queue2));
 
-            //// Check if the queues are similar/2.4/q1.b
-            //Console.WriteLine("_____________________2.4/q1.b____________________________");
-            //Console.WriteLine("are The queues similar: " + IsSimiler(queue1, queue2));
+            // Check if the queues are similar/2.4/q1.b
+            Console.WriteLine("_____________________2.4/q1.b____________________________");
+            Console.WriteLine("are The queues similar: " + IsSimiler(queue1, queue2));
 
-            ////Check if an item exists in the queue/ 2.4 / q2
-            //Console.WriteLine("_____________________2.4/q2.a____________________________");
-            //Console.WriteLine("please enter the number you want to find in queue:");
-            //int queueNum = int.Parse(Console.ReadLine());
-            //Console.WriteLine("is the item in the queue: " + IsExit(queue1, queueNum));
+            //Check if an item exists in the queue/ 2.4 / q2
+            Console.WriteLine("_____________________2.4/q2.a____________________________");
+            Console.WriteLine("please enter the number you want to find in queue:");
+            int queueNum = int.Parse(Console.ReadLine());
+            Console.WriteLine("is the item in the queue: " + IsExit(queue1, queueNum));
 
-            ////Clone the queue / 2.4 / q3
-            //Console.WriteLine("_____________________2.4/q2.b,1____________________________");
-            //Console.WriteLine("The cloned queue items are: " + clone(queue1));
+            //Clone the queue / 2.4 / q3
+            Console.WriteLine("_____________________2.4/q2.b,1____________________________");
+            Console.WriteLine("The cloned queue items are: " + clone(queue1));
 
             // Check if all items first number starts with the number the user gives/2.4/q4
             Console.WriteLine("_____________________2.4/q2.b,2____________________________");
