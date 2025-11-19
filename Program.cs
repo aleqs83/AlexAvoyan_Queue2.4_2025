@@ -213,6 +213,7 @@ namespace AlexAvoyan_Queue2._4_2025
             // Check if all items first number starts with the number the user gives/2.4/q4
             Console.WriteLine("_____________________2.4/q2.b,2____________________________");
             Console.WriteLine("do all items in the queue match the condition: " + AllExit(queue1));
+            Console.WriteLine("i did it lets gooooooooo");
             
 
             Console.ReadKey();
